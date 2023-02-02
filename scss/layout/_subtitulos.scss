@@ -1,0 +1,25 @@
+
+
+.titulo{
+    font-size: 100px;
+    color: aliceblue;
+    background-color: rgba(97, 97, 97, 0.718);
+    height: 100px;
+   
+    
+    h3{
+        display: flex;
+        font-size: 40px;
+        font-weight: 700;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    p{
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+  
+}

@@ -10,19 +10,22 @@
        
         grid-column: 2/3;
         grid-row: 1/3;
+        background-color: rgb(97, 97, 97);
     }
     
     .mapita{
+        padding: 25px;
         display: flex;
         justify-content: center;
        
     }
     
     .consulta{
-        margin-left: 12px;
+       
         grid-column: 1/2;
         grid-row: 1/2;
-        background-color: black;
+        background-color: rgb(97, 97, 97);
+       
     }
     .h3d{
         
