@@ -20,18 +20,20 @@
        
     }
     
-    .consulta{
+    .consulta{  
        
         grid-column: 1/2;
         grid-row: 1/2;
-        background-color: rgb(97, 97, 97);
-       
     }
-    .h3d{
-        
+    .h3d{     
         display: flex;
         justify-content: center;
-        color: white;
+        color: rgb(0, 0, 0);
     }
-    
+    .backcontacto{
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 10px;
+        
+    }
 }
