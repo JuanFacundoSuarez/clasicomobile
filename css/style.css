@@ -106,10 +106,6 @@ footer .parraFoo {
     display: flex;
     flex-direction: column;
   }
-  .consulta {
-    margin-left: 0;
-    background-color: black;
-  }
 }
 .notasMain {
   display: flex;
@@ -163,6 +159,10 @@ footer .parraFoo {
   width: 500px;
   height: auto;
 }
+.notaprincipal p {
+  padding: 20px;
+  text-align: center;
+}
 
 .titular {
   font-family: "Oswald", sans-serif;
@@ -170,26 +170,47 @@ footer .parraFoo {
   font-size: 25px;
 }
 
+@media (max-width: 720px) {
+  .notaprincipal {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .notaprincipal img {
+    width: 350px;
+    height: auto;
+  }
+  .notaprincipal p {
+    font-size: 20px;
+  }
+}
 .titulo {
   color: aliceblue;
   background-color: rgba(97, 97, 97, 0.718);
   height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
 }
 .titulo h3 {
-  display: flex;
   font-size: 40px;
   font-weight: 700;
-  justify-content: center;
 }
 .titulo p {
-  display: flex;
   font-size: 20px;
-  justify-content: center;
 }
 
 @media (max-width: 720px) {
   .titulo h3 {
     font-size: 30px;
+  }
+  .titulo p {
+    font-size: 15px;
   }
 }
 
